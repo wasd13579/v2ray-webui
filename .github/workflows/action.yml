@@ -17,6 +17,7 @@ jobs:
       uses: actions/setup-node@v2.1.2
       with:
         always-auth: false
+        node-version: '18'
 
     - name: Set up Go 1.17
       uses: actions/setup-go@v2
