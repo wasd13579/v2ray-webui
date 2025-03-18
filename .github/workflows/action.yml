@@ -35,10 +35,6 @@ jobs:
         fi
         sudo apt-get -y install cpp-aarch64-linux-gnu gccgo-aarch64-linux-gnu make git
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '18' # 先降级到稳定版本
     
     - name: Build
       run: |
